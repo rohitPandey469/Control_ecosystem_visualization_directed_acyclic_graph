@@ -1,0 +1,87 @@
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    padding: 1rem;
+    color: white;
+  }
+
+  .node {
+    transition: all 0.3s ease;
+  }
+  
+  .node:hover {
+    transform: scale(1.05);
+    z-index: 10;
+  }
+  
+  .metadata-item {
+    word-break: break-word;
+    padding: 2px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  
+  .metadata-item:last-child {
+    border-bottom: none;
+  }
+  
+  .connection-status {
+    margin: 0.5rem 0;
+  }
+  
+  .controls {
+    margin: 0.5rem 0;
+  }
+  
+  .controls button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #61dafb;
+    cursor: pointer;
+  }
+  
+  .controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  main {
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .App-footer {
+    background-color: #f8f9fa;
+    padding: 0.5rem;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  /* Node styling */
+  .hardware-node {
+    background-color: #ff8a65;
+  }
+  
+  .software-node {
+    background-color: #81c784;
+  }
+  
+  .node-metadata {
+    text-align: left;
+    margin-top: 5px;
+    font-size: 0.8em;
+  }
+  
+  .metadata-key {
+    font-weight: bold;
+  }
+
+  .App-main{
+    position: relative;
+  }
