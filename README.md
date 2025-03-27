@@ -35,7 +35,7 @@ npm install
 npm run dev
 ```
 
-### 4. Run DAG Publisher
+### 4. Run DAG Publisher - Another github repo
 ```bash
 git clone https://github.com/rohitPandey469/Control_ecosystem_visualization_DAG_publisher.git
 cd Control_ecosystem_visualization_DAG_publisher
